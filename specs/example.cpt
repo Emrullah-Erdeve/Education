@@ -1,0 +1,58 @@
+Created by testinium on 16.12.2021
+
+This is a concept file with following syntax for each concept.
+# Elektronik seçeneğinin üzerinde durulur ve beyaz eşya seçilir
+* "elektronik" elementinin üzerinde dur
+* Click to element "elektronik_beyazEsya"
+* "2" saniye bekle
+
+# Beyaz Eşya sayfasının açıldığı kontrol edilir
+* Şuanki URL "https://www.hepsiburada.com/beyaz-esya-ankastreler-c-235604" değerini içeriyor mu kontrol et
+* "2" saniye bekle
+
+# Kategorilerden ankastre setler seçeneği seçilir
+* Elementine tıkla "ankastre"
+* "2" saniye bekle
+* Şuanki URL "https://www.hepsiburada.com/ankastre-setler-c-234329" değerini içeriyor mu kontrol et
+* "2" saniye bekle
+* sayfayı aşağı kaydır
+* "2" saniye bekle
+
+# İlk ürünü favorilere ekle
+*"favoriButton" elementinin üzerinde dur
+*Elementine tıkla "favoriButton"
+* "2" saniye bekle
+
+
+# Sisteme giriş yapılır
+* Elementine tıkla "emailAddress"
+* "2" saniye bekle
+* "emailAddress" li elemente "tastinium123@gmail.com" değerini yaz
+* Elementine tıkla "btnLogin"
+* "4" saniye bekle
+* Elementine tıkla "sifre"
+* "sifre" li elemente "5858ZAra" değerini yaz
+* Elementine tıkla "btnEmailSelect"
+
+# Hesabım sayfasında beğendiklerim kısmına tıklanır
+* "2" saniye bekle
+* "hesabim" elementinin üzerinde dur
+* "2" saniye bekle
+* Elementine tıkla "begendiklerim"
+* "2" saniye bekle
+
+
+# Beğenilere eklenen ürünler orada mı diye kontrol edilir
+* "favori" elementi "1 ürün" değerini içeriyor mu kontrol et
+* "2" saniye bekle
+
+# Beğenilen bütün ürünler seçilir
+* Elementine tıkla "sec"
+* "2" saniye bekle
+* Elementine tıkla "hepsiniSec"
+* "2" saniye bekle
+
+# Seçilen bütün ürünler silinir ve listenin boş olduğu kontrol edilir
+* Elementine tıkla "sil"
+* Elementine tıkla "silPopup"
+* "listeBos" elementi "test" değerini içeriyor mu kontrol et

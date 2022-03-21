@@ -1,0 +1,128 @@
+[
+  {
+    "key": "search_btn",
+    "value": "//div/input[@placeholder='Ürün, kategori veya marka ara']",
+    "type": "xpath"
+  },
+  {
+    "key": "search_btn_text",
+    "value": "//input[@type='text']",
+    "type": "xpath"
+  },
+  {
+    "key": "ara_btn",
+    "value": "//div[@class='SearchBoxOld-buttonContainer']",
+    "type": "xpath"
+  },
+  {
+    "key": "secim_bilgisayar",
+    "value": "(//div[@data-test-id='review'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "elektronik",
+    "value": "(//div/ul/li/span[@class='sf-MenuItems-5_2RN'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "sepet_icon",
+    "value": "//span[text()='1']",
+    "type": "xpath"
+  },
+  {
+    "key": "sepet_tıkla",
+    "value": "span[id='shoppingCart']",
+    "type": "css"
+  },
+  {
+    "key": "elektronik_beyazEsya",
+    "value": "//li/a[text()='Beyaz Eşya']",
+    "type": "xpath"
+  },
+  {
+    "key": "ankastre",
+    "value": "//div[text()='Ankastre Setler']",
+    "type": "xpath"
+  },
+  {
+    "key": "favoriButton",
+    "value": "(//div[@data-test-id='product-image-right-bar-container'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "favoriButton2",
+    "value": "(//div[@data-test-id='product-image-right-bar-container'])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "loginButton",
+    "value": "(//div[@id='myAccount']//following::span[@class='sf-OldMyAccount-PhY-T'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "emailAddress",
+    "value": "//input[@placeholder='E-posta adresi veya telefon numarası']",
+    "type": "xpath"
+  },
+  {
+    "key": "btnLogin",
+    "value": "//div//button[@id='btnLogin']",
+    "type": "xpath"
+  },
+  {
+    "key": "hesabim",
+    "value": "//div[@id='myAccount']",
+    "type": "xpath"
+  },
+  {
+    "key": "begendiklerim",
+    "value": "//div/ul/li/a[text()='Beğendiklerim']",
+    "type": "xpath"
+  },
+  {
+    "key": "sifre",
+    "value": "//div/input[@id='txtPassword']",
+    "type": "xpath"
+  },
+  {
+    "key": "btnEmailSelect",
+    "value": "//button[@name='btnEmailSelect']",
+    "type": "xpath"
+  },
+  {
+    "key": "favori",
+    "value": "(//div[@class='product-info'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "sec",
+    "value": "(//div/button[text()='Seç'])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "hepsiniSec",
+    "value": "//div[@id='StickActionHeader-SelectAll']",
+    "type": "xpath"
+  },
+  {
+    "key": "sil",
+    "value": "//div/button[@id='StickActionHeader-RemoveSelected']",
+    "type": "xpath"
+  },
+  {
+    "key": "secilenler",
+    "value": "//div/p/span[@id='StickActionHeader-SelectedCountDesktop']",
+    "type": "xpath"
+  },
+  {
+    "key": "silPopup",
+    "value": "//div/button[@id='DeleteConfirmationModal-ActionButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "listeBos",
+    "value": "//span[@class='customerName']",
+    "type": "xpath"
+  }
+
+]
